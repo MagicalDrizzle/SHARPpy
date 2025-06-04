@@ -351,10 +351,10 @@ def _available_spc(dt=None):
             Array of datetime objects that represents all the available times
             of sounding data on the SPC site.
     '''
-    text = _download_spc()
-    matches = sorted(list(set(re.findall("([\d]{8})_OBS", text))))
-    return [ datetime.strptime(m, '%y%m%d%H') for m in matches ]
-
+    # text = _download_spc()
+    # matches = sorted(list(set(re.findall("([\d]{8})_OBS", text))))
+    # return [ datetime.strptime(m, '%y%m%d%H') for m in matches ]
+    return []
 def _availableat_spc(dt):
     '''
         _availableat_spc(dt)
