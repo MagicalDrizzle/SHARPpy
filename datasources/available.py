@@ -355,6 +355,7 @@ def _available_spc(dt=None):
     # matches = sorted(list(set(re.findall("([\d]{8})_OBS", text))))
     # return [ datetime.strptime(m, '%y%m%d%H') for m in matches ]
     return []
+
 def _availableat_spc(dt):
     '''
         _availableat_spc(dt)

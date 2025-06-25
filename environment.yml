@@ -1,4 +1,4 @@
-name: devel
+name: meteo
 channels:
   - conda-forge
 dependencies:
@@ -15,8 +15,7 @@ dependencies:
   - pyinstaller
   - setuptools
   - certifi
-  - pip
-  - pip:
-    - sphinx-prompt
-    - pydocstyle
-    - sounderpy
+  - sphinx-prompt
+  - pydocstyle
+# sounderpy
+  - sounderpy
